@@ -1,0 +1,24 @@
+{
+  "name": "serverexpress",
+  "version": "1.0.0",
+  "description": "Test Server Express",
+  "main": "expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SallyMCode/Quizz-IU.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SallyMCode/Quizz-IU/issues"
+  },
+  "homepage": "https://github.com/SallyMCode/Quizz-IU#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}

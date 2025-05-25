@@ -1,11 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IU Quiz Academy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kooperatives Online-Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header>
+    <h1>Willkommen zum kooperativen Online-Quiz</h1>
+  </header>
+
+  <main>
+    <section id="auth">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="usernameLogin">Benutzername:</label>
+        <input type="text" id="usernameLogin" name="username" required>
+
+        <label for="passwordLogin">Passwort:</label>
+        <input type="password" id="passwordLogin" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <h2>Registrierung</h2>
+      <form id="registerForm">
+        <label for="usernameRegister">Benutzername:</label>
+        <input type="text" id="usernameRegister" name="username" required>
+
+        <label for="passwordRegister">Passwort:</label>
+        <input type="password" id="passwordRegister" name="password" required>
+
+        <button type="submit">Registrieren</button>
+      </form>
+    </section>
+
+    <section id="quiz" style="display: none;">
+      <h2>Quizbereich</h2>
+      <!-- Hier werden Quizfragen angezeigt -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kooperatives Online-Quiz – Projektgruppe IUBH</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
